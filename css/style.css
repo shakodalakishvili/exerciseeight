@@ -1,0 +1,144 @@
+
+/* დავალება 1 */
+
+.box_one{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 15px 10px 5px red;
+    transition: all 2s;
+    margin-bottom: 50px;
+}
+
+.box_one:hover{
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+    box-shadow: 15px 10px 10px red;
+}
+
+/* დავალება 2  */
+
+.box_two{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all 5s;
+    background-color: yellow;
+}
+
+.box_two:hover{
+    cursor: pointer;
+    background-color:rgb(255, 255, 211);
+    opacity: 0.3;
+    
+}
+
+/* დავალება 3 */
+.foals{
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+    transition: all 8s;
+    margin-bottom: 100px;
+}
+
+.foals:hover{
+
+    cursor: pointer;
+    font-size: 8px;
+}
+
+/* დავალება 4 */
+
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    align-items: center;
+    color: red;
+    display: inline-block;
+    padding: 30px;
+    transition: all;
+}
+
+li:hover{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: forestgreen;
+    text-shadow: 3px 5px 1px yellow;
+}
+
+/* დავალება 5 */
+
+
+
+
+
+
+
+img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    animation: fols 4s infinite;
+    margin-bottom: 100px;
+    
+}
+img:hover{
+    cursor: pointer;
+}
+
+@keyframes fols {
+
+    0%{transform: rotate(0deg);}
+
+    100%{transform: rotate(360deg);}
+    
+    
+}
+
+/* დავალება 6 */
+
+.p1{
+    font-size: 20px;
+    text-align: center;
+    padding: 18px;
+
+
+}
+
+.loading{
+    border: 2px solid black;
+    border-radius: 0%;
+    margin: 100px;
+    background-color: rgb(26, 26, 165);
+    animation-name: loading;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+.loading:hover{
+    cursor: pointer;
+}
+
+.loading2{
+    font-size: 2px;
+    border-radius: 20px;
+    width: 20px;
+    background-color: rgb(149, 149, 149);
+    animation-name: loading;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+@keyframes loading {
+
+    0%{background-color: rgb(222, 224, 244);}
+
+    100%{background-color: blue rgb(169, 16, 16)  100px;}
+    
+}
